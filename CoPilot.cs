@@ -332,20 +332,20 @@ namespace CoPilot
                         if (SkillInfo.ManageCooldown(SkillInfo.autoMapTabber))
                         {
                             bool shouldBeClosed = GameController.IngameState.IngameUi.Atlas.IsVisible ||
-                                                  GameController.IngameState.IngameUi.AtlasTreePanel.IsVisible ||
+                                                  GameController.IngameState.IngameUi.AtlasTreeWindows.IsVisible ||
                                                   GameController.IngameState.IngameUi.StashElement.IsVisible ||
                                                   GameController.IngameState.IngameUi.TradeWindow.IsVisible || 
-                                                  GameController.IngameState.IngameUi.ChallengesPanel.IsVisible ||
+                                                  GameController.IngameState.IngameUi.ChallengesWindows.IsVisible ||
                                                   GameController.IngameState.IngameUi.CraftBench.IsVisible ||
                                                   GameController.IngameState.IngameUi.DelveWindow.IsVisible ||
-                                                  GameController.IngameState.IngameUi.ExpeditionWindow.IsVisible || 
+                                                  //GameController.IngameState.IngameUi.ExpeditionWindow.IsVisible || 
                                                   GameController.IngameState.IngameUi.BanditDialog.IsVisible ||
                                                   GameController.IngameState.IngameUi.HarvestWindow.IsVisible ||
                                                   GameController.IngameState.IngameUi.MetamorphWindow.IsVisible ||
                                                   GameController.IngameState.IngameUi.SyndicatePanel.IsVisible || 
                                                   GameController.IngameState.IngameUi.SyndicateTree.IsVisible ||
                                                   GameController.IngameState.IngameUi.QuestRewardWindow.IsVisible ||
-                                                  GameController.IngameState.IngameUi.SynthesisWindow.IsVisible ||
+                                                  //GameController.IngameState.IngameUi.SynthesisWindow.IsVisible ||
                                                   //GameController.IngameState.IngameUi.UltimatumPanel.IsVisible || 
                                                   GameController.IngameState.IngameUi.MapDeviceWindow.IsVisible ||
                                                   GameController.IngameState.IngameUi.SellWindow.IsVisible ||
