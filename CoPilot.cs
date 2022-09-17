@@ -332,10 +332,10 @@ namespace CoPilot
                         if (SkillInfo.ManageCooldown(SkillInfo.autoMapTabber))
                         {
                             bool shouldBeClosed = GameController.IngameState.IngameUi.Atlas.IsVisible ||
-                                                  GameController.IngameState.IngameUi.AtlasTreeWindows.IsVisible ||
+                                                  //GameController.IngameState.IngameUi.AtlasTreeWindows.IsVisible ||
                                                   GameController.IngameState.IngameUi.StashElement.IsVisible ||
                                                   GameController.IngameState.IngameUi.TradeWindow.IsVisible || 
-                                                  GameController.IngameState.IngameUi.ChallengesWindows.IsVisible ||
+                                                  //GameController.IngameState.IngameUi.ChallengesWindows.IsVisible ||
                                                   GameController.IngameState.IngameUi.CraftBench.IsVisible ||
                                                   GameController.IngameState.IngameUi.DelveWindow.IsVisible ||
                                                   //GameController.IngameState.IngameUi.ExpeditionWindow.IsVisible || 
@@ -349,7 +349,7 @@ namespace CoPilot
                                                   //GameController.IngameState.IngameUi.UltimatumPanel.IsVisible || 
                                                   GameController.IngameState.IngameUi.MapDeviceWindow.IsVisible ||
                                                   GameController.IngameState.IngameUi.SellWindow.IsVisible ||
-                                                  GameController.IngameState.IngameUi.SettingsPanel.IsVisible ||
+                                                  //GameController.IngameState.IngameUi.SettingsPanel.IsVisible ||
                                                   GameController.IngameState.IngameUi.InventoryPanel.IsVisible || 
                                                   //GameController.IngameState.IngameUi.NpcDialog.IsVisible ||
                                                   GameController.IngameState.IngameUi.TreePanel.IsVisible;
